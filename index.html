@@ -6,16 +6,11 @@
   <title>St. Mary's Dental Clinic – Thodupuzha, Idukki</title>
   <meta name="description" content="St. Mary's Dental Clinic, Jyothi Bazar, Thodupuzha. Specialist dental care by Dr. Prof. A.V. Pius, Dr. Asha Pius and Dr. Geo Pius." />
   <link rel="stylesheet" href="styles.css" />
-  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
-  <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
 </head>
 <body>
 
-  <!-- ===== HEADER ===== -->
   <header class="site-header">
     <div class="header-inner">
-
-      <!-- Logo — left -->
       <div class="header-logo">
         <div class="logo-mark">✦</div>
         <div>
@@ -24,85 +19,50 @@
         </div>
       </div>
 
-      <!-- Nav — center (desktop only) -->
       <nav class="header-nav" aria-label="Main navigation">
-        <a href="#doctors">Our Team</a>
         <a href="#services">Services</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#testimonials">Reviews</a>
-        <a href="#contact">Contact</a>
+        <a href="#doctors">Our Team</a>
+        <a href="#contact">Location</a>
       </nav>
-
-      <!-- Actions — right -->
-      <div class="header-contact">
-        <a href="tel:+914862222051" class="header-phone">
-          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8 19.79 19.79 0 01.02 2.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>
-          04862 222 051
-        </a>
-        <div class="header-divider"></div>
-        <a href="https://wa.me/914862222051?text=Hi%2C%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" rel="noopener" class="btn-wa-small">WhatsApp</a>
-        <div id="authArea">
-          <button class="btn-auth" onclick="openModal('loginModal')">Login</button>
-        </div>
-        <div id="userArea" style="display:none;" class="user-area">
-          <span id="userGreet" class="user-greet"></span>
-          <button class="btn-auth btn-auth-outline" onclick="logout()">Logout</button>
-        </div>
-      </div>
-
     </div>
   </header>
 
   <main>
 
-    <!-- ===== HERO ===== -->
     <section class="hero">
-      <div class="hero-bg" aria-hidden="true"></div>
-      <div class="hero-glow" aria-hidden="true"></div>
-
       <div class="container">
         <div class="hero-ornament">
           <span class="hero-eyebrow">Est. 1990 · Thodupuzha, Idukki</span>
         </div>
         <h1>
-          Excellence in
+          Excellence in <br />
           <em>Dental Care</em>
         </h1>
-        <p class="hero-sub">Three generations of specialist dentists serving Idukki — delivering precise, painless, and lasting results for your whole family.</p>
-        <div class="hero-btns">
-          <button class="btn btn-primary" onclick="requireAuthThen()">&#128197; Book Appointment</button>
-          <a href="tel:+914862222051" class="btn btn-outline">&#128222; Call Now</a>
-          <a href="https://wa.me/914862222051?text=Hi%2C%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" rel="noopener" class="btn btn-wa">WhatsApp</a>
-        </div>
-      </div>
-
-      <div class="hero-stats">
-        <div class="stat-item">
-          <div class="stat-num">30+</div>
-          <div class="stat-label">Years of Care</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-num">3</div>
-          <div class="stat-label">MDS Specialists</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-num">9</div>
-          <div class="stat-label">Services</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-num">5&#9733;</div>
-          <div class="stat-label">Patient Reviews</div>
+        <p class="hero-sub">Three generations of specialist dentists serving Idukki — delivering precise, painless, and lasting results for your whole family in a serene, modern environment.</p>
+        
+        <div class="hero-stats">
+          <div class="stat-item">
+            <div class="stat-num">30+</div>
+            <div class="stat-label">Years of Care</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">3</div>
+            <div class="stat-label">MDS Specialists</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">9+</div>
+            <div class="stat-label">Premium Services</div>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- ===== DOCTORS ===== -->
     <section class="section section-alt" id="doctors">
       <div class="container">
         <div class="section-header">
           <p class="section-sub">Our Team</p>
           <h2 class="section-title">Meet Your Specialists</h2>
-          <div class="gold-rule"></div>
+          <div class="smurf-rule"></div>
         </div>
         <div class="doctor-grid">
 
@@ -110,8 +70,8 @@
             <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600&q=80" alt="Dr. Prof. A.V. Pius" class="doctor-photo" loading="lazy" />
             <div class="doctor-info">
               <h3>Dr. Prof. A.V. Pius</h3>
-              <p class="doctor-qual">BSc · BDS · MDS — Prosthodontist</p>
-              <p>Senior specialist and professor with decades of experience in crowns, bridges, dentures, full-mouth rehabilitation, and implant prosthetics. Founder of St. Mary's Dental Clinic.</p>
+              <p class="doctor-qual">Prosthodontist</p>
+              <p>Senior specialist and professor with decades of experience in full-mouth rehabilitation and implant prosthetics.</p>
             </div>
           </div>
 
@@ -119,8 +79,8 @@
             <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=600&q=80" alt="Dr. Asha Pius" class="doctor-photo" loading="lazy" />
             <div class="doctor-info">
               <h3>Dr. Asha Pius</h3>
-              <p class="doctor-qual">BDS · MDS — Endodontist</p>
-              <p>Specialist in root canal treatment and endodontics. Uses modern rotary techniques to make every procedure comfortable, precise, and painless.</p>
+              <p class="doctor-qual">Endodontist</p>
+              <p>Specialist in root canal treatment. Uses modern rotary techniques to make every procedure comfortable and precise.</p>
             </div>
           </div>
 
@@ -128,8 +88,8 @@
             <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=600&q=80" alt="Dr. Geo Pius" class="doctor-photo" loading="lazy" />
             <div class="doctor-info">
               <h3>Dr. Geo Pius</h3>
-              <p class="doctor-qual">BDS · MDS — Dental Surgeon &amp; Implantologist</p>
-              <p>Specialist in dental implants and oral surgery. Provides precise, lasting solutions with a focus on patient comfort and quick recovery.</p>
+              <p class="doctor-qual">Dental Surgeon & Implantologist</p>
+              <p>Specialist in dental implants and oral surgery. Provides lasting solutions with a focus on patient comfort.</p>
             </div>
           </div>
 
@@ -137,17 +97,14 @@
       </div>
     </section>
 
-    <!-- ===== SERVICES — Icon Card Grid ===== -->
     <section class="section" id="services">
       <div class="container">
         <div class="section-header">
           <p class="section-sub">What We Offer</p>
-          <h2 class="section-title">How Can We Help You Today?</h2>
-          <div class="gold-rule"></div>
+          <h2 class="section-title">Comprehensive Treatments</h2>
+          <div class="smurf-rule"></div>
         </div>
         <div class="services-grid">
-
-          <!-- Check-up -->
           <div class="service-card">
             <div class="service-icon">
               <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
@@ -158,8 +115,6 @@
             </div>
             <h3>General Check-up</h3>
           </div>
-
-          <!-- Fillings -->
           <div class="service-card">
             <div class="service-icon">
               <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
@@ -170,8 +125,6 @@
             </div>
             <h3>Tooth Fillings</h3>
           </div>
-
-          <!-- Extraction -->
           <div class="service-card">
             <div class="service-icon">
               <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
@@ -181,21 +134,16 @@
             </div>
             <h3>Tooth Extraction</h3>
           </div>
-
-          <!-- Root Canal -->
           <div class="service-card">
             <div class="service-icon">
               <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
                 <path d="M14 10c-3 0-6 3-6 8 0 3 1 5 2 7l3 13h22l3-13c1-2 2-4 2-7 0-5-3-8-6-8-2 0-4 1-5 2l-5 4-5-4c-1-1-3-2-5-2z"/>
                 <path d="M20 22c0 0 0 8 0 10M28 22c0 0 0 6 0 8" stroke-width="1.8"/>
-                <!-- lightning bolt for pain relief -->
                 <path d="M23 6l-3 6h4l-3 6" stroke-width="1.6"/>
               </svg>
             </div>
             <h3>Root Canal Treatment</h3>
           </div>
-
-          <!-- Crowns -->
           <div class="service-card">
             <div class="service-icon">
               <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
@@ -203,10 +151,8 @@
                 <rect x="10" y="32" width="28" height="6" rx="2"/>
               </svg>
             </div>
-            <h3>Crowns &amp; Bridges</h3>
+            <h3>Crowns & Bridges</h3>
           </div>
-
-          <!-- Implants -->
           <div class="service-card">
             <div class="service-icon">
               <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
@@ -218,8 +164,6 @@
             </div>
             <h3>Dental Implants</h3>
           </div>
-
-          <!-- Dentures -->
           <div class="service-card">
             <div class="service-icon">
               <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
@@ -229,8 +173,6 @@
             </div>
             <h3>Dentures</h3>
           </div>
-
-          <!-- Braces -->
           <div class="service-card">
             <div class="service-icon">
               <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
@@ -241,10 +183,8 @@
                 <line x1="27" y1="24" x2="32" y2="24"/>
               </svg>
             </div>
-            <h3>Braces &amp; Orthodontics</h3>
+            <h3>Braces & Orthodontics</h3>
           </div>
-
-          <!-- Whitening -->
           <div class="service-card">
             <div class="service-icon">
               <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
@@ -254,8 +194,6 @@
             </div>
             <h3>Teeth Whitening</h3>
           </div>
-
-          <!-- Cleaning -->
           <div class="service-card">
             <div class="service-icon">
               <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
@@ -264,69 +202,53 @@
                 <circle cx="38" cy="10" r="2" fill="currentColor" stroke="none"/>
               </svg>
             </div>
-            <h3>Scaling &amp; Cleaning</h3>
+            <h3>Scaling & Cleaning</h3>
           </div>
-
-          <!-- Emergency -->
-          <div class="service-card">
-            <div class="service-icon">
-              <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-                <path d="M14 10c-3 0-6 3-6 8 0 3 1 5 2 7l3 13h22l3-13c1-2 2-4 2-7 0-5-3-8-6-8-2 0-4 1-5 2l-5 4-5-4c-1-1-3-2-5-2z"/>
-                <path d="M24 16v8M24 28v2" stroke-width="2.4" stroke="var(--gold)"/>
-              </svg>
-            </div>
-            <h3>Emergency Care</h3>
-          </div>
-
-          <!-- Consultation CTA -->
-          <div class="service-card" style="border-color:var(--gold-dark);background:var(--gold-tint);" onclick="requireAuthThen()" style="cursor:pointer;">
-            <div class="service-icon">
-              <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-                <rect x="8" y="10" width="32" height="28" rx="4"/>
-                <line x1="16" y1="8" x2="16" y2="14"/>
-                <line x1="32" y1="8" x2="32" y2="14"/>
-                <line x1="8" y1="20" x2="40" y2="20"/>
-                <line x1="24" y1="28" x2="24" y2="34"/>
-                <line x1="20" y1="31" x2="28" y2="31"/>
-              </svg>
-            </div>
-            <h3 style="color:var(--gold);">Book Appointment</h3>
-          </div>
-
         </div>
       </div>
     </section>
 
-    <!-- ===== GALLERY ===== -->
     <section class="section section-alt" id="gallery">
       <div class="container">
         <div class="section-header">
           <p class="section-sub">Inside the Clinic</p>
           <h2 class="section-title">Our Facilities</h2>
-          <div class="gold-rule"></div>
+          <div class="smurf-rule"></div>
         </div>
         <div class="gallery-grid">
-          <div class="gallery-item" tabindex="0" role="button" aria-label="View photo"><img src="https://images.unsplash.com/photo-1629909615184-74f495363b67?w=600&q=80" alt="Clinic reception" loading="lazy" /></div>
-          <div class="gallery-item" tabindex="0" role="button" aria-label="View photo"><img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=600&q=80" alt="Dental treatment room" loading="lazy" /></div>
-          <div class="gallery-item" tabindex="0" role="button" aria-label="View photo"><img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=600&q=80" alt="Dental equipment" loading="lazy" /></div>
-          <div class="gallery-item" tabindex="0" role="button" aria-label="View photo"><img src="https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?w=600&q=80" alt="Dental chair" loading="lazy" /></div>
-          <div class="gallery-item" tabindex="0" role="button" aria-label="View photo"><img src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=600&q=80" alt="Consultation room" loading="lazy" /></div>
-          <div class="gallery-item" tabindex="0" role="button" aria-label="View photo"><img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=600&q=80" alt="Happy patient" loading="lazy" /></div>
+          <div class="gallery-item" tabindex="0">
+            <img src="https://images.unsplash.com/photo-1629909615184-74f495363b67?w=600&q=80" alt="Clinic reception" loading="lazy" />
+          </div>
+          <div class="gallery-item" tabindex="0">
+            <img src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=600&q=80" alt="Dental treatment room" loading="lazy" />
+          </div>
+          <div class="gallery-item" tabindex="0">
+            <img src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=600&q=80" alt="Dental equipment" loading="lazy" />
+          </div>
+          <div class="gallery-item" tabindex="0">
+            <img src="https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?w=600&q=80" alt="Dental chair" loading="lazy" />
+          </div>
+          <div class="gallery-item" tabindex="0">
+            <img src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=600&q=80" alt="Consultation room" loading="lazy" />
+          </div>
+          <div class="gallery-item" tabindex="0">
+            <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=600&q=80" alt="Happy patient" loading="lazy" />
+          </div>
         </div>
-        <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
+        
+        <div class="lightbox" id="lightbox" role="dialog" aria-modal="true">
           <button class="lb-close" id="lbClose" aria-label="Close">✕</button>
           <img src="" alt="" id="lbImg" />
         </div>
       </div>
     </section>
 
-    <!-- ===== TESTIMONIALS ===== -->
     <section class="section" id="testimonials">
       <div class="container">
         <div class="section-header">
           <p class="section-sub">Patient Stories</p>
           <h2 class="section-title">What Our Patients Say</h2>
-          <div class="gold-rule"></div>
+          <div class="smurf-rule"></div>
         </div>
         <div class="testimonials-grid">
           <div class="review-card">
@@ -348,13 +270,12 @@
       </div>
     </section>
 
-    <!-- ===== CONTACT ===== -->
     <section class="section section-alt" id="contact">
       <div class="container">
         <div class="section-header">
-          <p class="section-sub">Get in Touch</p>
-          <h2 class="section-title">Find Us</h2>
-          <div class="gold-rule"></div>
+          <p class="section-sub">Find Us</p>
+          <h2 class="section-title">Location & Hours</h2>
+          <div class="smurf-rule"></div>
         </div>
         <div class="contact-grid">
           <div class="contact-details">
@@ -364,26 +285,19 @@
             </div>
             <div class="contact-row">
               <span class="contact-label">Phone</span>
-              <span><a href="tel:+914862222051">04862 222 051</a></span>
-            </div>
-            <div class="contact-row">
-              <span class="contact-label">WhatsApp</span>
-              <span><a href="https://wa.me/914862222051" target="_blank" rel="noopener">+91 48622 22051</a></span>
+              <span>04862 222 051</span>
             </div>
             <div class="contact-row">
               <span class="contact-label">Hours</span>
-              <span>Mon – Sat &nbsp;9:00 AM – 7:00 PM<br />Sunday &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;By appointment only</span>
-            </div>
-            <div class="contact-btns">
-              <button class="btn btn-primary" onclick="requireAuthThen()">📅 Book Appointment</button>
-              <a href="tel:+914862222051" class="btn btn-outline">📞 Call</a>
-              <a href="https://wa.me/914862222051?text=Hi%2C%20I%20would%20like%20to%20book%20an%20appointment%20at%20St.%20Mary%27s%20Dental%20Clinic." target="_blank" rel="noopener" class="btn btn-wa">WhatsApp</a>
+              <span>Mon – Sat   9:00 AM – 7:00 PM<br />Sunday       Closed</span>
             </div>
           </div>
           <div class="contact-map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31458.04!2d76.7172!3d9.8965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b07c34ed1cc09b5%3A0xe9b14cd4ea8d1f22!2sThodupuzha%2C%20Kerala%20685584!5e0!3m2!1sen!2sin!4v1700000000001!5m2!1sen!2sin"
-              width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-              title="St. Mary's Dental Clinic location"></iframe>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31458.04!2d76.7172!3d9.8965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b07c34ed1cc09b5%3A0xe9b14cd4ea8d1f22!2sThodupuzha%2C%20Kerala%20685584!5e0!3m2!1sen!2sin!4v1700000000001!5m2!1sen!2sin"
+              width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Clinic location"></iframe>
           </div>
         </div>
       </div>
@@ -391,7 +305,6 @@
 
   </main>
 
-  <!-- ===== FOOTER ===== -->
   <footer class="site-footer">
     <div class="container">
       <div class="footer-inner">
@@ -400,75 +313,14 @@
           <div>Jyothi Bazar, Thodupuzha<br />Idukki — 685 584, Kerala</div>
         </div>
         <div>
-          <a href="tel:+914862222051">04862 222 051</a><br />
-          <a href="https://wa.me/914862222051" target="_blank" rel="noopener">WhatsApp</a>
-        </div>
-        <div>
           Mon – Sat: 9 AM – 7 PM<br />
-          Sunday: By appointment
+          Sunday: Closed
         </div>
       </div>
-      <p class="footer-copy">&copy; 2025 St. Mary's Dental Clinic, Thodupuzha. All rights reserved.</p>
+      <p class="footer-copy">© 2026 St. Mary's Dental Clinic, Thodupuzha. All rights reserved.</p>
     </div>
   </footer>
 
-  <!-- ===== MODAL OVERLAY ===== -->
-  <div class="modal-overlay" id="modalOverlay" onclick="handleOverlayClick(event)">
-
-    <!-- LOGIN -->
-    <div class="modal" id="loginModal" role="dialog" aria-modal="true" aria-labelledby="loginTitle">
-      <button class="modal-close" onclick="closeAllModals()" aria-label="Close">✕</button>
-      <h2 class="modal-title" id="loginTitle">Patient Login</h2>
-      <p class="modal-sub">Welcome back. Login to book appointments.</p>
-      <div id="loginError" class="form-error" style="display:none;"></div>
-      <div class="form-group">
-        <label for="loginEmail">Email</label>
-        <input type="email" id="loginEmail" placeholder="your@email.com" autocomplete="email" />
-      </div>
-      <div class="form-group">
-        <label for="loginPassword">Password</label>
-        <input type="password" id="loginPassword" placeholder="••••••••" autocomplete="current-password" />
-      </div>
-      <button class="btn btn-primary btn-full" onclick="doLogin()">Login</button>
-      <p class="modal-switch">Don't have an account? <a href="#" onclick="switchModal('loginModal','registerModal')">Register here</a></p>
-    </div>
-
-    <!-- REGISTER -->
-    <div class="modal" id="registerModal" role="dialog" aria-modal="true" aria-labelledby="registerTitle" style="display:none;">
-      <button class="modal-close" onclick="closeAllModals()" aria-label="Close">✕</button>
-      <h2 class="modal-title" id="registerTitle">Create Account</h2>
-      <p class="modal-sub">Register as a patient to book appointments online.</p>
-      <div id="registerError" class="form-error" style="display:none;"></div>
-      <div class="form-group">
-        <label for="regName">Full Name</label>
-        <input type="text" id="regName" placeholder="Your full name" autocomplete="name" />
-      </div>
-      <div class="form-group">
-        <label for="regPhone">Phone Number</label>
-        <input type="tel" id="regPhone" placeholder="+91 98765 43210" autocomplete="tel" />
-      </div>
-      <div class="form-group">
-        <label for="regEmail">Email</label>
-        <input type="email" id="regEmail" placeholder="your@email.com" autocomplete="email" />
-      </div>
-      <div class="form-group">
-        <label for="regPassword">Password</label>
-        <input type="password" id="regPassword" placeholder="Min. 6 characters" autocomplete="new-password" />
-      </div>
-      <button class="btn btn-primary btn-full" onclick="doRegister()">Create Account</button>
-      <p class="modal-switch">Already registered? <a href="#" onclick="switchModal('registerModal','loginModal')">Login here</a></p>
-    </div>
-
-    <!-- APPOINTMENT — Calendly -->
-    <div class="modal modal-calendly" id="appointmentModal" role="dialog" aria-modal="true" aria-labelledby="apptTitle" style="display:none;">
-      <button class="modal-close" onclick="closeAllModals()" aria-label="Close">✕</button>
-      <h2 class="modal-title" id="apptTitle">📅 Book an Appointment</h2>
-      <p class="modal-sub" id="apptSub"></p>
-      <div id="calendlyContainer"></div>
-    </div>
-
-  </div>
-
   <script src="script.js"></script>
 </body>
-</html>
+</html> 
